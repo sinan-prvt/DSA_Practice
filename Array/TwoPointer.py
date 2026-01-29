@@ -70,14 +70,14 @@
 # ======================= Move all zeros to the end =============================
 
 
-arr = [0, 1, 0, 3, 12]
+# arr = [0, 1, 0, 3, 12]
 
-left = 0
+# left = 0
 
-for right in range(len(arr)):
-    if arr[right] != 0:
-        arr[left], arr[right] = arr[right], arr[left]
-        left += 1
+# for right in range(len(arr)):
+#     if arr[right] != 0:
+#         arr[left], arr[right] = arr[right], arr[left]
+#         left += 1
     
-print(arr)
+# print(arr)
 
